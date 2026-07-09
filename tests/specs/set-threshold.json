@@ -1,0 +1,20 @@
+[
+  {
+    "name": "/set_threshold",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Configure moderation thresholds with guided defaults"
+            }
+          }
+        ],
+        "send": {
+          "text": "/set_threshold"
+        }
+      }
+    ]
+  }
+]
